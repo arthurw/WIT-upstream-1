@@ -3,7 +3,7 @@ type: theme
 description: This is an MVM specific sub theme of Classy
 core: 8.x
 # Defines the base theme
-base theme: Seven
+base theme: seven
 # Defines libraries group in which we can add css/js.
 libraries:
   - mvmup1/global-styling
