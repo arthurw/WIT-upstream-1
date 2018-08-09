@@ -3,4 +3,4 @@ background-image:none;
 }
 
 #header .site-branding__logo img {width:300px;}
-#block-unitname {color:#000000;font-size:20px;}
+#header .site-branding__name a {color:#000000;}
