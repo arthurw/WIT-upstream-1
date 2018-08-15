@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_details_
+    - node.type.events_
+id: node.events_.field_contact_details_
+field_name: field_contact_details_
+entity_type: node
+bundle: events_
+label: 'Contact Details '
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: sgambier@ed.ac.uk
+default_value_callback: ''
+settings: {  }
+field_type: email

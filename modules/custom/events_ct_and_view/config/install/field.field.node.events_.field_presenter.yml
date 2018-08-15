@@ -1,0 +1,37 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_presenter
+    - node.type.events_
+  module:
+    - image
+id: node.events_.field_presenter
+field_name: field_presenter
+entity_type: node
+bundle: events_
+label: Presenter
+description: 'Upload an image of the event presenter'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ffb7934a-ebab-47ce-9a4f-c94c25be60ca
+    alt: ''
+    title: ''
+    width: 250
+    height: 250
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

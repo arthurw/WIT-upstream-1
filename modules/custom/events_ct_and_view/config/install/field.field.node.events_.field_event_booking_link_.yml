@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_booking_link_
+    - node.type.events_
+  module:
+    - link
+id: node.events_.field_event_booking_link_
+field_name: field_event_booking_link_
+entity_type: node
+bundle: events_
+label: 'Event Booking Link '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
