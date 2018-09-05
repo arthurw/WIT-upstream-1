@@ -4,6 +4,10 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.profile_.body
+    - field.field.node.profile_.feeds_item
+    - field.field.node.profile_.field_contact_details
+    - field.field.node.profile_.field_phone_number
+    - field.field.node.profile_.field_profile_picture
     - node.type.profile_
   module:
     - text
@@ -24,4 +28,8 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  feeds_item: true
+  field_contact_details: true
+  field_phone_number: true
+  field_profile_picture: true

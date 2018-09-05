@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.node.profile_.body
+    - field.field.node.profile_.feeds_item
     - field.field.node.profile_.field_contact_details
     - field.field.node.profile_.field_phone_number
     - field.field.node.profile_.field_profile_picture
@@ -51,4 +52,5 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  feeds_item: true
