@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.events_.field_event_booking_link_
     - field.field.node.events_.field_events_date
     - field.field.node.events_.field_presenter
+    - field.field.node.events_.field_school
     - node.type.events_
   module:
     - datetime
@@ -66,4 +67,5 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_school: true

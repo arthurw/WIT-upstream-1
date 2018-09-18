@@ -4,6 +4,11 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.events_.body
+    - field.field.node.events_.field_contact_details_
+    - field.field.node.events_.field_event_booking_link_
+    - field.field.node.events_.field_events_date
+    - field.field.node.events_.field_presenter
+    - field.field.node.events_.field_school
     - node.type.events_
   module:
     - text
@@ -24,4 +29,9 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_contact_details_: true
+  field_event_booking_link_: true
+  field_events_date: true
+  field_presenter: true
+  field_school: true
